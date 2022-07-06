@@ -1,0 +1,46 @@
+a{
+    text-decoration: none;
+}
+#logo{
+    height: 70%;
+    width: 100%;
+}
+
+body{
+    background-image: url(./assets/seal-of-the-united-states-congress-american-flag-united-states-congress-logo-congress-emblem-of-united-states-congress-besthqwallpapers.com-1366x768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+body:before {
+    content: "";
+    width: 100%;
+    height: 100vh;
+    
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(rgb(255, 203, 203), rgb(209, 209, 255));
+
+    opacity: 0.8;
+
+    z-index: -1;
+
+}
+
+#sobre{
+    width: 40px;
+    height: 40px;
+}
+
+table{
+    background-color: white;
+    opacity: 0.8;
+
+
+}
+
